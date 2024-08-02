@@ -1,0 +1,298 @@
+<!-- LEVEL 1 TASK  : PORTFOLIO-->
+
+<!--Creating a personal portfolio using CSS and HTML is a popular beginner web development project -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+
+    <!-- Preconnect to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Link to Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="container flex bg-black">
+
+        <!-- Header Section: Add your name or a logo at the top. Optionally, include a brief introduction or tagline. -->
+
+        <header class="left bg-black">
+
+            <div class="upper flex  item-center justify-center rounded m1 p1 bg-gray">
+
+                <div class="logoPic flex justify-center item-center">
+                    <img src="asset/logopic.jpg" alt="logo">
+                </div>
+
+                <h2>Akshita Rani</h2>
+
+                <div class="topicon flex justify-center items-center">
+                    <div><img src="asset/svgs/facebook.svg" alt="Facebook"></div>
+                    <div><img src="asset/svgs/insta.svg" alt="Instagram"></div>
+                    <div><img src="asset/svgs/linkdin.svg" alt="LinkedIn"></div>
+                    <div><img src="asset/svgs/skype.svg" alt="Skype"></div>
+                </div>
+
+            </div>
+
+            <div class="lower m1 p1 rounded bg-gray">
+                <nav id="navmenu" class="navmenu">
+                    <ul>
+                        <li><a href="#home"><i class="fas fa-home navicon"></i> Home</a></li>
+                        <li><a href="#about"><i class="fas fa-user navicon"></i> About</a></li>
+                        <li><a href="#portfolio"><i class="fas fa-images navicon"></i> Projects</a></li>
+                        <li><a href="#education"><i class="fas fa-file-alt navicon"></i> education</a></li>
+                        <li><a href="#contact"><i class="fas fa-envelope navicon"></i> Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </header>
+
+
+        <main id="home" class="right main">
+            <!-- Content for the right section -->
+            <div class="bg-pic">
+                <h1 class="heading"><strong> Hii, I am Akshita...</strong></h1>
+            </div>
+
+
+            <!-- About Section: Insert an image of yourself. Write a short bio highlighting your skills and experience. -->
+            <section id="about" class="about-section">
+
+                <div class="about p1">
+
+                    <h2>About</h2>
+
+                    <p>Hey there! I'm Akshita Rani, a Coding Enthusiast want to turn caffeine and code into
+                        magic.Currently mastering the art of computer science at Uttaranchal University, I've got my
+                        eyes set on creating digital wonders.</p>
+
+                    <p>I live for the thrill of a good challenge and love collaborating with like-minded tech
+                        enthusiasts to bring innovative ideas to life.</p>
+
+                    <p>Outside of tech, I dive into poetry and painting, exploring life’s subtleties through art. This
+                        blend of creativity and technical skill shapes my unique approach to problem-solving and
+                        innovation.
+                    </p>
+
+
+                    <div class="bio-image">
+                        <img src="asset/aboutpic.jpeg" alt="bio-image">
+                    </div>
+
+                    <div class="education">
+                        <h3 class="education-title">Education</h3>
+                        <div class="education-item">
+                            <h4>Master of Computer Application</h4>
+
+                            <h5>2023 - 2025</h5>
+
+                            <p><em>Uttaranchal University, Dehradun, Uttarakhand, India</em></p>
+                            <p>Currently pursuing a Master of Computer Application with a focus on advanced programming,
+                                data structures, and emerging technologies. This program equips me with the skills and
+                                knowledge needed to tackle complex challenges and innovate in the tech industry.</p>
+                        </div>
+
+                        <div id="education" class="education-item">
+                            <h4>Bachelor of Science</h4>
+                            <h5>2020 - 2023</h5>
+                            <p><em>DSB Campus, Nainital, Uttarakhand, India</em></p>
+                            <p>Completed a Bachelor of Science with a strong foundation in computer science principles,
+                                mathematics, and analytical problem-solving.
+                            <p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="skill-section">
+                <h3>Skills</h3>
+
+                <!-- Skills Section: List your key skills or areas of expertise. -->
+                <p>I'm passionate about building dynamic and visually appealing web applications. My skills span a range
+                    of technologies, from crafting clean and structured HTML to designing interactive user interfaces
+                    with CSS and JavaScript. I'm constantly honing my expertise in these areas to stay at the web
+                    development trends.</p>
+
+                <div class="cardContainer flex">
+
+                    <div class="card">
+                        <div class="cardImg">
+                            <img src="asset/svgs/html.svg" alt="HTML">
+                        </div>
+                        <h4>HTML</h4>
+                    </div>
+
+                    <div class="card">
+                        <div class="cardImg">
+                            <img src="asset/svgs/css.svg" alt="CSS">
+                        </div>
+                        <h4>CSS</h4>
+                    </div>
+
+                    <div class="card">
+                        <div class="cardImg">
+                            <img src="asset/svgs/JS.svg" alt="js">
+                        </div>
+                        <h4>JavaScript</h4>
+                    </div>
+
+                    <div class="card">
+                        <div class="cardImg">
+                            <img src="asset/svgs/nodejs.svg" alt="node">
+                        </div>
+                        <h4>Node.js</h4>
+                    </div>
+
+                    <div class="card">
+                        <div class="cardImg">
+                            <img src="asset/svgs/npm.svg" alt="npm">
+                        </div>
+                        <h4>npm</h4>
+                    </div>
+
+                    <div class="card">
+                        <div class="cardImg">
+                            <img src="asset/svgs/react.svg" alt="react">
+                        </div>
+                        <h4>React</h4>
+                    </div>
+
+                    <div class="card">
+                        <div class="cardImg">
+                            <img src="asset/svgs/sql.svg" alt="sql">
+                        </div>
+                        <h4>SQL</h4>
+                    </div>
+
+                    <div class="card">
+                        <div class="cardImg">
+                            <img src="asset/svgs/python.svg" alt="python">
+                        </div>
+                        <h4>Python</h4>
+                    </div>
+                </div>
+
+            </section>
+
+            <!--  Projects Section: Showcase samples of your work or projects.Include project titles, descriptions, and images. -->
+
+            <section id="projects" class="project-section flex ">
+                <h2>Projects</h2>
+                <p>These projects showcase my initial steps into the world of web development. Each one represents a
+                    valuable learning experience, helping me to build a solid foundation in HTML, CSS, and JavaScript.
+                    While these are my beginner projects, they mark the beginning of my journey towards mastering web
+                    development. I'm dedicated to continuously improving my skills and taking on more complex and
+                    exciting projects in the future.</p>
+                <div class="PcardContainer flex item-center">
+
+                    <div class="project_card">
+                        <h3>Netflix Clone</h3>
+                        <div class="P_cardImg">
+                            <img src="asset/netflix.png" alt="Netflix Clone">
+                        </div>
+                        <p>This is a frontend project where I cloned the Netflix interface using HTML and CSS.</p>
+                    </div>
+
+                    <div class="project_card">
+                        <h3>Spotify Clone</h3>
+                        <div class="PcardImg">
+                            <img src="asset/spotify.png" alt="Spotify Clone">
+                        </div>
+                        <p>This is an ongoing project to clone the Spotify interface using HTML, CSS, and JavaScript.
+                        </p>
+                    </div>
+
+                    <div class="project_card">
+                        <h3>Landing Page</h3>
+                        <div class="PcardImg">
+                            <img src="asset/yoga.png" alt="Landing Page">
+                        </div>
+                        <p>This is a responsive landing page created using HTML and CSS.</p>
+                    </div>
+
+                    <div class="project_card">
+                        <h3>Tkinter Text-converter</h3>
+                        <div class="PcardImg">
+                            <img src="asset/lang_converter.png" alt="Tkinter Calculator">
+                        </div>
+                        <p>A GUI text-language converter built using Python's Tkinter library.</p>
+                    </div>
+                    <div class="project_card">
+                        <h3>Basic Calculator</h3>
+                        <div class="P_cardImg">
+                            <img src="asset/calculater.png" alt="Basic Calculator">
+                        </div>
+                        <p>A simple calculator built using HTML, CSS, and JavaScript.</p>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Resume Section: Provide a link to download your resume in PDF format. -->
+            <section class="resume-section flex flex-col">
+                <h2>Resume</h2>
+                <p>You can download my resume by clicking the link below:</p>
+                <a href="https://drive.google.com/uc?export=download&id=1yPGxZtFZ2sqvNvmQ3dn2f0TKH4hGW_cg"
+                    download>Download Resume</a>
+            </section>
+
+            <!-- Contact Section: Include your contact information, such as email address and phone number. -->
+
+            <section id="contact" class="contact-section flex flex-col">
+                <h2>Contact Me</h2>
+
+                <div class="contact">
+                    <div class="contact-detail flex flex-col">
+                        <div class="phone flex">
+                            <i class="fas fa-phone"></i>
+                            <p>+91 7078062003</p>
+                        </div>
+                        <div class="email flex">
+                            <i class="fas fa-envelope"></i>
+                            <p>akshita25103@gmail.com</p>
+                        </div>
+                    </div>
+                    <form action="#" class="contact-form flex flex-col">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <button type="submit">
+                            <h3>Send</h3>
+                        </button>
+                    </form>
+                </div>
+            </section>
+
+
+        </main>
+
+        <!-- Footer: Add a copyright notice and any additional links or information. -->
+        <footer id="footer" class="footer flex flex-col">
+            <p>©<span>Copyright | </span> <strong>MY Portfolio |</strong> <span>All Rights Reserved | </span>
+                <span>Designed by Akshita</span>
+            </p>
+        </footer>
+
+
+    </div>
+</body>
+
+</html>
